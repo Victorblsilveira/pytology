@@ -7,7 +7,64 @@
     padding: 0;
 }
 
-
 .text.blue{
     color: #3498db;
+}
+
+#content{
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+}
+
+section{
+    padding: 50px 100px;
+}
+
+
+body{
+    font-size: 1.5em;
+    font-weight: 100;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+.flex{
+    display: inline-block;
+}
+
+.flex article{
+    vertical-align: top;
+    font-size: 21px;
+    display: inline-block;
+    margin: 0px 10px;
+    width: calc(32% - 20px);
+}
+
+.flex article header{
+    padding: 10px 0px;
+    color: #3498db;
+}
+
+.flex article p{
+    color: #9a9a9a;
+}
+
+.footer{
+    padding: 50px 100px;
+    color: #9a9a9a;
+    display: inline-block;
+}
+
+.footer button{
+    border: 0px;
+    background: #3498db;
+    color: white;
+    border-radius: 15px;
+}
+
+.footer input{
+    border: 0px;
+    color: black;
+    border-radius: 15px;
 }
